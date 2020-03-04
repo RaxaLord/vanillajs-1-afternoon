@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styles</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Styles</title>
-  <link rel="stylesheet" href="./index.css" />
-</head>
+  <body>
+    <header>
+      <h1>Poker Cards</h1>
+    </header>
+    <main>
+      <section id="club"><span>A</span><span>♣</span><span>A</span></section>
+      <section id="diamond"><span>A</span><span>♦</span><span>A</span></section>
+      <section id="heart"><span>A</span><span>♥</span><span>A</span></section>
+      <section id="spade"><span>A</span><span>♠</span><span>A</span></section>
+    </main>
 
-<body>
-  <header>
-    <h1>Poker Cards</h1>
-  </header>
-  <main>
-    <section id="club"><span>A</span><span>♣</span><span>A</span></section>
-    <section id="diamond"><span>A</span><span>♦</span><span>A</span></section>
-    <section id="heart"><span>A</span><span>♥</span><span>A</span></section>
-    <section id="spade"><span>A</span><span>♠</span><span>A</span></section>
-  </main>
+    <input type="text" id="idInput" placeholder="Which Shape?" />
+    <input type="text" id="colorInput" placeholder="What Color?" />
 
-  <input type="text" id="idInput" placeholder="Which Shape?">
-  <input type="text" id="colorInput" placeholder="What Color?">
+    <button id="button" onclick="setCard()">Change Color!</button>
 
-  <button id="button" onclick="setCard()">Change Color!</button>
-
-  <script src="/index.js"> </script>
-</body>
-
+    <script src="./index.js"></script>
+  </body>
 </html>
